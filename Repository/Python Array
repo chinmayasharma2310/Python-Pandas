@@ -8,7 +8,7 @@ integer_array = arr.array('i', [1,2,3,4])  # i for integer.
 print("Integer array:", end= " ")
 
 for ele in range(0,4):
-    print(integer_array[ele],end=" ")
+    print(integer_array[ele],end="  ")
 print()
 
 decimal_array = arr.array('d',[1.1,2.2,3.3,4.4]) # d for decimal
