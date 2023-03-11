@@ -19,6 +19,7 @@ class Dog :
         print("I,", dog1.ownerName1,", is the owner.")
         print("My pet's name is ", dog2.name)
         print("He is ",dog2.age,"years old")
+
     
     #instance variable using normal method
     def setcolor(self, color):
@@ -26,10 +27,32 @@ class Dog :
     
     def getcolor(self):
         print("The color of dogs is :", self.color)
-        
+
+    
+    
 dog1 = Dog("bubu", 6)       # instantiating the class
 dog2 = Dog("gogo", 5)
 dog1.printMethod()
 dog1.setcolor("brown")
 dog1.getcolor()
+
+class Cat :
+     def __init__(self):
+         print("object created of class Cat")
+
+     def __del__(self):   # Destructor method
+         print("object destroyed of class Cat")
+
+cat1 = Cat()
+del cat1
+    
+    
+
+
+
+
+
+
+
+
 
